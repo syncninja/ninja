@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Workflow Recorder CLI",
   "scripts": {
-    "postinstall": "pip3 install -r ./nodeParser/requirements.txt"
+    "postinstall": "postinstall.sh"
   },
   "repository": {
     "type": "github",
