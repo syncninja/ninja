@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-echo Hello
+pip3 install -r ./nodeParser/requirements.txt
