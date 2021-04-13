@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "Workflow Recorder CLI",
   "scripts": {
-    "postinstall": "/usr/local/lib/node_modules/ninja/postinstall.sh"
+    "install": "scripts/install.sh",
+    "postinstall": "scripts/install.sh"
   },
   "repository": {
     "type": "github",
