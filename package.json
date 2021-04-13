@@ -18,7 +18,7 @@
     ""
   ],
   "bin": {
-    "ninja": "record.sh"
+    "ninja": "scripts/record.sh"
   },
   "author": "DE",
   "license": "ISC",
