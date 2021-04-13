@@ -1,5 +1,5 @@
 basedir=`dirname "$0"`
-basedir=${basedir}/../lib/node_modules/syncninja/
+basedir=${basedir}/../lib/node_modules/ninja/
 mkdir -p ~/.ninja
 
 key="$1"

@@ -1,8 +1,7 @@
 {
-  "name": "syncninja",
+  "name": "ninja",
   "version": "0.1.0",
   "description": "Workflow Recorder CLI",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "install": "pip3 install -r ./nodeParser/requirements.txt"
@@ -19,7 +18,7 @@
     ""
   ],
   "bin": {
-    "ninja": "./record.sh"
+    "ninja": "record.sh"
   },
   "author": "DE",
   "license": "ISC",
