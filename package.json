@@ -23,7 +23,7 @@
   "author": "DE",
   "license": "ISC",
   "dependencies": {
-    "request": "^2.88.2",
-    "node-pty": "0.10.0"
+    "node-pty": "0.10.0",
+    "request": "^2.88.2"
   }
 }
