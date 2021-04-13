@@ -1,0 +1,30 @@
+{
+  "name": "SyncNinja",
+  "version": "0.1.0",
+  "description": "Workflow Recorder CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "pip3 install -r ./nodeParser/requirements.txt"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/syncninja/ninja"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "keywords": [
+    ""
+  ],
+  "bin": {
+    "ninja": "./record.sh"
+  },
+  "author": "DE",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2",
+    "node-pty": "0.10.0"
+  }
+}
