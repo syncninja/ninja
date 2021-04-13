@@ -47,24 +47,15 @@ function authenticateAndGetAccessCode(challenge) {
       if (code && state) {
         // Obtain Token
         // getToken(verifier, code);
-        res.write(`
-          <html>
-          <body>
-            <h1>LOGIN SUCCEEDED</h1>
-          </body>
-          </html>
-        `);
+        res.writeHead(302, {
+          Location: "https://sync.ninja/?login=success"
+        });
         resolve(code);
       } else {
-        res.write(`
-          <html>
-          <body>
-            <h1>LOGIN FAILED</h1>
-            <div>${error}</div>
-            <div>${error_description}
-          </body>
-          </html>
-        `);
+        res.writeHead(302, {
+          Location: "https://sync.ninja/?login=error"
+        });
+
         reject();
       }
 
@@ -147,8 +138,6 @@ async function main() {
   const code = await authenticateAndGetAccessCode(challenge);
   const token = await getToken(verifier, code);
   const userInfo = await getUserInfo(token.access_token);
-  console.log(userInfo);
-  console.log(token);
   saveToken({
     token,
     userInfo
