@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Workflow Recorder CLI",
   "scripts": {
-    "postinstall": "scripts/install.js"
+    "postinstall": "scripts/install2.sh"
   },
   "repository": {
     "type": "github",
