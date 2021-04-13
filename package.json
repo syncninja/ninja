@@ -1,5 +1,5 @@
 {
-  "name": "SyncNinja",
+  "name": "syncninja",
   "version": "0.1.0",
   "description": "Workflow Recorder CLI",
   "main": "index.js",
