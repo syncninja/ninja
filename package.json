@@ -23,6 +23,10 @@
   "license": "ISC",
   "dependencies": {
     "node-pty": "0.10.0",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "performance-now": "^2.1.0",
+    "strip-ansi-control-characters": "^2.0.0",
+    "utf8": "^3.0.0",
+    "yargs": "^16.2.0"
   }
 }
