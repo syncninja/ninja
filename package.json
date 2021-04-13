@@ -2,10 +2,6 @@
   "name": "ninja",
   "version": "0.1.0",
   "description": "Workflow Recorder CLI",
-  "scripts": {
-    "install": "scripts/install.sh",
-    "postinstall": "scripts/install.sh"
-  },
   "repository": {
     "type": "github",
     "url": "https://github.com/syncninja/ninja"
